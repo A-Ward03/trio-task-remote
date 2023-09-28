@@ -12,7 +12,7 @@ pipeline {
         stage('Build_Trio_Flask-App') {
             steps {
                 sh '''
-                
+                echo "This is a test."
                 '''
             }
         } 
