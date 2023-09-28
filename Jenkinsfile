@@ -3,37 +3,52 @@ pipeline {
     stages {
         stage('Pull_repo') {
             steps {
-                sh
+                sh '''
+                echo "Hello from Jenkins."
+            
+                '''
             }
         }
         stage('Build_Trio_Flask-App') {
             steps {
-                sh
+                sh '''
+                
+                '''
             }
         } 
         stage('Build_Trio_DB') {
             steps {
-                sh
+                sh '''
+                
+                '''
             }
         }
         stage('Build_Trio_NGINX') {
             steps {
-                sh
+                sh '''
+                
+                '''
             }
         }
         stage('Run_Trio_Flask-App') {
             steps {
-                sh
+                sh '''
+                
+                '''
             }
         }
         stage('Run_Trio_DB') {
             steps {
-                sh
+                sh '''
+                
+                '''
             }
         }
         stage('Network create') {
             steps {
-                sh
+                sh '''
+                
+                '''
             }
         }
     }
