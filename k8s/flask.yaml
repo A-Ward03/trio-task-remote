@@ -33,6 +33,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: amward03/trio-deploy-flask:latest
+        image: amward03/trio-deploy-flask:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
